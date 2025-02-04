@@ -1,20 +1,20 @@
-ADDITION: How well the new object is added to the existing image, and did it affect the original image
-SPECIFIC OBJECT: A specific object which is a part in the image. How well the changes pertaining to it are made.
-CHANGE: How well the generated image is structurally relevant to the original image
+ADDITION IMPACT: Measuring the impact on other objects and features in the image due to addition of new objects.
+SPECIFIC OBJECT CHANGE: Measuring the quality of changes to a specific object in the image. This object is often a smaller part of a primary object.
+CHANGE IMPACT: Gauge the impact on other objects and features in the image due to the changes of objects
 STYLE TRANSFER: We neeed to rate how well the intended style is transfered to the generated image
 BACKGROUND: These prompts challenge the model to change the background. we need to rate how well the intended background change has occurred.
-SPECIFIC DETAIL: The prompts Are the specific details mentioned in the text prompt handled eg: Give the tie a pink color with yellow dots
-SPECIFIC POSITION: These prompts generate images at a specific position. Are the generated objects placed in the intended position
-LANDSCAPE: These are prompts to update the overall landscape of the picture. Are the generated image consists the intended landscape
+SPECIFIC DETAIL: Measuring the quality of the change to the features of an object eg: Give the tie a pink color with yellow dots
+SPATIAL POSITION: These prompts generate images at a specific position. Are the generated objects placed in the intended position
+LANDSCAPE: These are prompts to update the overall landscape of the picture. Does the generated image consists the intended landscape
 COUNT: This refers to prompts that deals with / generates a specified number of a objects. Are the generated objects in the image contain the correct number of objects as intended
-ENTIRE OBJECT - RELEVANT: This refers to prompts that generates a new object that is structurally relevant to the original image. How well is the generated object.
-ENTIRE OBJECT - IRRELEVANT: This refers to prompts that generates a new object that is structurally irrelevant to the original image. How well is the generated object.
+ENTIRE OBJECT - RELEVANT: This refers to prompts that generates a new object that is structurally relevant to the original image. How well is the structure and quality of the generated object with respect to the input image.
+ENTIRE OBJECT - IRRELEVANT: This refers to prompts that generates a new object that is structurally irrelevant to the original image. How well is the structure and quality of the generated object with respect to the input image.
 FICTION REFERENCE: These are prompts that have fictional references. We need to rate how the fictional references are incorporated in the generated images.
 TIMELINE: The prompts changes the timeline of the generated photos (like set in the 2500 AD). How well are the timeline related changes are availabe in the generated images.
 IMAGE: These prompts completely change the entire original image like a Snow Filled Mountains into a desert etc. We need to rate how well the generation is completed.
 CAMERA CONTROL: These prompts change the angle from which the object is viewed. How well the intended visual perspective change is displayed.
 REMOVAL: These prompts would remove one or more objects from the original image. We need to rate the performance of the model for these tasks.
-MULTIPLE-OBJECTS: These prompts deal with images that contain multiple-objects as part of the input image.
+MULTIPLE-OBJECTS: These prompts deal with images that contain multiple-objects as part of the input image. How well the change has been incorporated and has it aptly applied to all the objects of the input image.
 
 Overall the rating is from 0-5:
 0 - There is no change in the image or a very negative version of the image that ruins the original image completely
@@ -24,5 +24,5 @@ Overall the rating is from 0-5:
 4 - A good attempt towards the intended image. Can tolerate low amount of errors.
 5 - A very good attempt towards the intended image. Can tolerate very low amount or / No errors.
 
-Note: The ratings are subjective in nature, so could still be rated based on a personal view.
+Note: The ratings are subjective in nature, hence they could rated based on individuals interest or personal view.
 
