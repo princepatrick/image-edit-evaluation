@@ -1,0 +1,18 @@
+Prompt:
+We are testing various Text + Image to Image models and have found few open source images and some prompts that change the appearance, style, object, image, background, etc., We are planning to test the prompt consistency with the text prompt but we also want the metric to take into consideration the input image. Hence, we used a BLIP model to describe the image and add the text prompt to it.
+
+ We want you to combine the image description, and the given 5 text prompts and produce a combined prompt for each of the prompts exactly describing the text alone. No need to add any additional description.
+
+ Input Image Description (From BLIP): a glass of coffee with a straw sticking out of it
+
+The 5 prompts:
+
+Input Text Prompt1 : Change the tea to beer
+
+Input Text Prompt2 : Give glass cup a pinkish tint
+
+Input Text Prompt3 : Add another similar cup at the back of the one in the image. The cup should have a blue straw
+
+Input Text Prompt4 : Change the tea to a chocolate milk shake with almonds floating
+
+Input Text Prompt5 : Change the style of the picture into a DeviantArt Please provide the combined description for each prompt for the input image.
