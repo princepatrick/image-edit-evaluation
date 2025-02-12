@@ -45,3 +45,5 @@ Please find the prompts in Prompts_Final.csv file and the input and output image
 All the prompts are listed in /image-rating-instructions/Prompts_Final_Categories.csv
 
 If you wish to reuse our manual rating for your research, please use the template found at /image-rating-instructions/Rating_Template_Final.xlsx and brief introduction on each category and rating criteria is listed in /image-rating-instructions/ImageChallengeCategories_RatingInstruction.txt
+
+The scripts used to generate the auto rating metrics and other visualizations are present in the image-rating-instuctions/scripts along with instruction for the docker image
